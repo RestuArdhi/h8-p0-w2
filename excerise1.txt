@@ -5,27 +5,28 @@ SET massaBenda to 600
 SET percepatanBenda to 2
 
 CALCULATE massaBenda multiple percepatanBenda
-DISPLAY resultanGaya with calculation value
+  DISPLAY resultanGaya with calculation value
 
 
 Nomor 2 Algoritma dan Pseudocode
 
 Tetapkan variabel tahun
 Gunakan conditional if dan else
-Ketika tahun dibagi habis dengan 400 itu tahun kabisat
-Ketika tahun tidak habis dibagi 400 tapi habis dibagi 100 itu bukan tahun kabisat
-Ketika tahun tidak habis dibagi 400, tidak habis dibagi 100, tapi habis dibagi 4, itu tahun kabisat
-Selain itu bukan tahun kabisat
+Ketika tahun dibagi habis dengan 400 itu tahun kabisat.
+Ketika tahun tidak habis dibagi 400 tapi habis dibagi 100 itu bukan tahun kabisat.
+Ketika tahun tidak habis dibagi 400, tidak habis dibagi 100, tapi habis dibagi 4, itu tahun kabisat.
+Selain itu bukan tahun kabisat.
 
 
 SET year equals to 0
 IF the year divisible evenly by 400, 
-DISPLAY "Tahun Kabisat"
+   DISPLAY "Tahun Kabisat"
 IF the year is not divisible by 400, but is divisible by 100,
-DISPLAT "Bukan Tahun Kabisat"
+   DISPLAY "Bukan Tahun Kabisat"
 IF the year is not divisible by 400, also not divisible by 100, but is divisible by 4,
-DISPLAT "Tahun Kabisat"
-ELSE DISPLAT "Bukan Tahun Kabisat"
+   DISPLAY "Tahun Kabisat"
+ELSE 
+   DISPLAY "Bukan Tahun Kabisat"
 END IF
 
 
@@ -40,25 +41,25 @@ Mesin laundry baru akan menyala
 
 STORE "laundry" equals to 0
 WHILE "laundry" <20
-ADD "laundry" by 1  
-DISPLAY "Laundry process"  
+  ADD "laundry" by 1  
+  DISPLAY "Laundry process"  
 
 
 
 Nomor 4 algoritma dan psedeucode
 
-Tetapkan dulu total siswa adalah 40 orang
-Memulai putaran (looping)
-ketika mendapat siswa yang mempunyai kuku pendek, siswa tersebut akan dipuji
-Selain itu, siswa akan dihukum push up
+Tetapkan dulu total siswa adalah 40 orang.
+Memulai putaran (looping).
+ketika mendapat siswa yang mempunyai kuku pendek, siswa tersebut akan dipuji.
+Selain itu, siswa akan dihukum push up.
 Selesaikan putaran saat siswa mencapai 40.
 
 
 SET "totalStudent" is 40
 FOR totalStudent count to 40
-IF kuku pendek
-DISPLAY "Kamu anak baik"
-ELSE 
-DISPLAY "Kalian akan push up"
+  IF kuku pendek
+    DISPLAY "Kamu anak baik"
+  ELSE 
+    DISPLAY "Kalian akan push up"
 END FOR
 
